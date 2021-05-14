@@ -30,11 +30,11 @@ final class SmsflatrateTransport extends AbstractTransport
 {
     protected const HOST = 'www.smsflatrate.net';
 
-    private string $authToken;
-    private string $from;
-    private string $type;
-    private int $flash;
-    private int $status;
+    private $authToken;
+    private $from;
+    private $type;
+    private $flash;
+    private $status;
 
     /**
      * SmsflatrateTransport constructor.
